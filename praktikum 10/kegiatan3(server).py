@@ -27,7 +27,7 @@ while perintah != 'keluar':
                 komm.send('Pesan tidak diketahui')
         elif perintah == 'hitung':
             L=float(a*t)
-            response = 'Luas jajar genjang dengan alas {} tinggi {} adalah {}'.fo
+            response = 'Luas jajar genjang dengan alas {} tinggi {} adalah {}'.format(a,t,L)
             komm.send(response)
         else:
             komm.send('Pesan tidak diketahui')
